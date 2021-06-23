@@ -220,7 +220,7 @@ typing==3.6.6
 ujson==1.35
 unicodecsv==0.14.1
 urllib3==1.23
-vboxapi==1.0
+vbox-sdk==5.1.18-0 
 virtualenv==16.2.0
 wcwidth==0.1.7
 webencodings==0.5.1
