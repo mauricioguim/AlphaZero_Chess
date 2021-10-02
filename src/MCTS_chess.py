@@ -115,7 +115,7 @@ class UCTNode():
               copy_board, move, parent=self)
         return self.children[move]
     
-    def backup(self, value_estimate: float):
+    def backup(self, value_estimate):
         current = self
         while current.parent is not None:
             current.number_visits += 1
