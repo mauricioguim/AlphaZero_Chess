@@ -6,7 +6,7 @@ import os
 import pickle
 import numpy as np
 import torch
-import torch.multiprocessing as mp
+import multiprocessing as mp
 
 if __name__=="__main__":
     for iteration in range(10):
